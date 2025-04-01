@@ -1020,3 +1020,59 @@
 # s = input()
 # for i in range(0, len(s), 2):
 #     print(s[i])
+
+# s = input()
+# for i in range(1, len(s) + 1):
+#     print(s[-i])
+
+# a, b, c = input(), input(), input()
+# print(b[0] + a[0] + c[0])
+
+# c = 0
+# s = input()
+# for i in range(len(s)):
+#     c += int(s[i])
+# print(c)
+
+# s = input()
+# flag = False
+# for c in s:
+#     if c in '0123456789':
+#         flag = True
+#         break
+# if flag == True:
+#     print('Цифра')
+# else:
+#     print('Цифр нет')
+
+# s = input()
+# n = 0
+# m = 0
+# for i in s:
+#     if i == '+':
+#         n += 1
+#     if i == '*':
+#         m += 1
+# print('Символ + встречается', n, 'раз')
+# print('Символ * встречается', m, 'раз')
+
+# k = 0
+# s = input()
+# for i in range(len(s) - 1):
+#     if s[i] == s[i + 1]:
+#         k += 1
+# print(k)
+
+# s = input()
+# m = 0
+# n = 0
+# for c in s:
+#     if c in 'бвгджзйклмнпрстфхцчшщБВГДЖЗЙКЛМНПРСТФХЦЧШЩ':
+#         m += 1
+#     if c in 'ауоыиэяюёеАУОЫИЭЯЮЁЕ':
+#         n += 1
+# print('Количество гласных букв равно', n)
+# print('Количество согласных букв равно', m)
+
+# n = int(input())
+# print(bin(n)[2::])
