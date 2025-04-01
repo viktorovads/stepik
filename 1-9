@@ -1,0 +1,1022 @@
+# a1 = int(input())
+# d = int(input())
+# n = int(input())
+# print(a1 + d * (n - 1))
+
+# x = int(input())
+# print(x, 2 * x, 3 * x, 4 * x, 5 * x, sep='---')
+
+# a = 15 // (16 % 7)
+# b = 34 % a * 5 - 29 % 5 * 2
+# print(a + b)
+
+# a = 82 // 3**2 % 7
+# print(a)
+
+# b1 = int(input())
+# q = int(input())
+# n = int(input())
+# print(b1 * q ** (n - 1))
+
+# n = int(input())
+# print(n // 100)
+
+# n, k = int(input()), int(input())
+# print(k // n)
+# print(k % n)
+
+# n = int(input())
+# print(n // 2 + n % 2)
+
+# n = int(input())
+# print(n, 'мин - это', n // 60, 'час', n % 60, 'минут.')
+
+# n = int(input())
+# print((n - 1) // 4 + 1)
+
+# a = int(input())
+# print('Сумма цифр =', (a % 10) + (a // 100) + (a // 10 % 10))
+# print('Произведение цифр =', (a % 10) * (a // 100) * (a // 10 % 10))
+
+
+# n = int(input())
+# print(str(n // 100) + str(n // 10 % 10) + str(n % 10))
+# print(str(n // 100) + str(n % 10) + str(n // 10 % 10))
+# print(str(n // 10 % 10) + str(n // 100) + str(n % 10))
+# print(str(n // 10 % 10) + str(n % 10) +str(n // 100))
+# print(str(n % 10) + str(n // 100) + str(n // 10 % 10))
+# print(str(n % 10) + str(n // 10 % 10) + str(n // 100))
+
+# n = int(input())
+# print('Цифра в позиции тысяч равна', n // 1000)
+# print('Цифра в позиции сотен равна', n // 100 % 10)
+# print('Цифра в позиции десятков равна', n % 100 // 10)
+# print('Цифра в позиции единиц равна', n % 10)
+
+# a = str(input())
+# b = str(input())
+# if a == b: print('Пароль принят')
+# else: print('Пароль не принят')
+
+# n = int(input())
+# if n % 2 == 0: print('Четное')
+# else: print('Нечетное')
+
+# n = input()
+# if int(n[0]) + int(n[3]) == int(n[1]) - int(n[2]): print('ДА')
+# else: print('НЕТ')
+
+# n = int(input())
+# if n >= 18: print('Доступ разрешен')
+# else: print('Доступ запрещен')
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a - b == b - c: print('YES')
+# else: print('NO')
+
+# a, b = int(input()), int(input())
+# if a < b:
+#     print(a)
+# else:
+#     print(b)
+
+# a, b, c, d = int(input()), int(input()), int(input()), int(input())
+# l = []
+# l.append(a)
+# l.append(b)
+# l.append(c)
+# l.append(d)
+# print(min(l))
+
+# n = int(input())
+# if n <= 13: print('детство')
+# elif 14 <= n <= 24: print('молодость')
+# elif 25 <= n <= 59: print('зрелость')
+# else: print('старость')
+
+# a, b, c = int(input()), int(input()), int(input())
+# while a < 0:
+#     a = 0
+# while b < 0:
+#     b = 0
+# while c < 0:
+#     c = 0
+# print(a + b + c)
+
+# num1 = 34
+# num2 = 81
+# if num1 // 9 == 0 or num2 % 9 == 0:
+#     print('число', num1, 'выиграло')
+# else:
+#     print('число', num2, 'выиграло')
+
+# a = int(input())
+
+# if a >= 2 and a <= 17:
+#     b = 3
+#     p = a * a + b * b
+# else:
+#     b = 5
+
+# p = (a + b) * (a + b)
+# print(p)
+
+# x = int(input())
+# if -1 < x < 17: print('Принадлежит')
+# else: print('Не принадлежит')
+
+# x = int(input())
+# if -3 >= x or x >= 7: print('Принадлежит')
+# else: print('Не принадлежит')
+
+# x = int(input())
+# if - 30 < x <= -2 or 7 < x <= 25:
+#     print('Принадлежит')
+# else:
+#     print('Не принадлежит')
+
+# x = int(input())
+# if 1000 <= x <= 9999 and (x % 7 == 0 or x % 17 == 0):
+#     print('YES')
+# else:
+#     print('NO')
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a + b > c and a + c > b and b + c > a:
+#     print('YES')
+# else: print('NO')
+
+# n = int(input())
+# if (n % 4 == 0 and n % 100 != 0) or (n % 400 == 0):
+#     print('YES')
+# else: print ('NO')
+
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
+
+# if x1 == x2 or y1 == y2:
+#     print('YES')
+# else:
+#     print('NO')
+
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
+
+# if (x2 == x1 + 1 or x2 == x1 - 1 or x2 == x1) and (y2 == y1 + 1 or y2 == y1 - 1 or y2 == y1):
+#     print('YES')
+# else:
+#     print('NO')
+
+# n = int(input())
+# k = int(input())
+# if n > k:
+#     print('NO')
+# elif n < k:
+#     print("YES")
+# else:
+#     print("Don't know")
+
+# a, b, c = int(input()), int(input()), int(input())
+# if a == b == c:
+#     print('Равносторонний')
+# elif (a == b != c) or (a == c != b) or (b == c != a):
+#     print('Равнобедренный')
+# else:
+#     print('Разносторонний')
+
+# a, b, c = int(input()), int(input()), int(input())
+# if a > b > c or a < b < c: print(b)
+# elif b > a > c or b < a < c: print(a)
+# else: print(c)
+
+# n = int(input())
+# if n == 2: print(28)
+# elif n == 4 or n == 6 or n == 9 or n == 1: print(30)
+# else: print(31)
+
+# n = int(input())
+# if n < 60: print('Легкий вес')
+# elif 60 <= n < 64: print('Первый полусредний вес')
+# elif 64 <= n < 69: print('Полусредний вес')
+
+# a = int(input())
+# b = int(input())
+# s = input()
+
+# if s == '+': print(a + b)
+# elif s == '-': print(a - b)
+# elif s == '*': print(a * b)
+# elif s == '/':
+#     if b != 0: print(a / b)
+#     else: print('На ноль делить нельзя!')
+# else: print('Неверная операция')
+
+# a = input()
+# b = input()
+# if a in ('красный', 'желтый', 'синий') and b in ('красный', 'желтый', 'синий'):
+#     if a == 'красный':
+#         if b == 'красный':
+#             print('красный')
+#         elif b == 'желтый':
+#             print('оранжевый')
+#         else:
+#             print('фиолетовый')
+#     elif a == 'желтый':
+#         if b == 'красный':
+#             print('оранжевый')
+#         elif b == 'желтый':
+#             print('желтый')
+#         else:
+#             print('зеленый')
+#     else:
+#         if b == 'красный':
+#             print('фиолетовый')
+#         elif b == 'желтый':
+#             print('зеленый')
+#         else:
+#             print('синий')
+# else:
+#     print('ошибка цвета')
+
+# n = int(input())
+# if n == 0: print('зеленый')
+# elif 1 <= n <= 10 or 19 <= n <= 28:
+#     if n % 2 != 0: print('красный')
+#     else: print('черный')
+# elif 11 <= n <= 18 or 29 <= n <= 36:
+#     if n % 2 != 0: print("черный")
+#     else: print('красный')
+# else: print('ошибка ввода')
+
+# num = max(1, 3, -5, 7) + min(-3, 6, -8, -1) + abs(-17)
+# print(num)
+
+# a = int(input())
+# b = int(input())
+# print('Квадрат суммы', a, 'и', b, 'равен', (a + b) ** 2)
+# print('Сумма квадратов', a, 'и', b, 'равна', a ** 2 + b ** 2)
+
+# a, b, c, d = int(input()), int(input()), int(input()), int(input())
+# print(a ** b + c ** d)
+
+# n = int(input())
+# print(n + n * 10 + n + n * 100 + n * 10 + n)
+
+# n = int(input())
+# if n % 100 == 0:
+#     print('YES')
+# else:
+#     print('NO')
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if (x1 + y1 + x2 + y2) % 2 == 0:
+#     print('YES')
+# else:
+#     print('NO')
+
+# a = int(input())
+# g = input()
+# if 10 <= a <= 15:
+#     if g == 'f':
+#         print('YES')
+#     else:
+#         print('NO')
+# else:
+#     print('NO')
+
+# n = int(input())
+# if n == 1: print('I')
+# elif n == 2: print('II')
+# elif n == 3: print('III')
+# elif n == 4: print('IV')
+# elif n == 5: print('V')
+# elif n == 6: print('VI')
+# elif n == 7: print('VII')
+# elif n == 8: print('VIII')
+# elif n == 9: print('IX')
+# elif n == 10: print('X')
+# else: print('ошибка')
+
+# n = int(input())
+# if n % 2 != 0 or (6 <= n <= 20 and n % 2 == 0):
+#     print('YES')
+# elif (n % 2 == 0 and 2 <= n <= 5) or (n % 2 == 0 and n > 20):
+#     print('NO')
+
+# a, b, c, d = int(input()), int(input()), int(input()), int(input())
+# if (abs(a - c) == 1 and abs(b - d) == 2) or (abs(a - c) == 2 and abs(b - d) == 1):
+#     print('YES')
+# else:
+#     print('NO')
+
+# a, b, c, d = int(input()), int(input()), int(input()), int(input())
+# if (a - c == b - d) or (a - c == -(b - d)) or ((a == c) or (b == d)):
+#     print('YES')
+# else:
+#     print('NO')
+
+# a, b = float(input()), float(input())
+# print(0.5 * a * b)
+
+# s, v1, v2 = float(input()), float(input()), float(input())
+# print(s / (v1 + v2))
+
+# n = float(input())
+# if n == 0: print('Обратного числа не существует')
+# else: print(n ** -1)
+
+# f = float(input())
+# print(5 / 9 * (f - 32))
+
+# n = int(input())
+# if 1 <= n <= 2:
+#     print(n * 10.5)
+# else:
+#     print(2 * 10.5 + (n - 2) * 4)
+
+# f = float(input())
+# print(int((f * 10)) % 10)
+
+# f = float(input())
+# print(f - int(f))
+
+# a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+# print('Наименьшее число =', min(a, b, c, d, e))
+# print('Наибольшее число =', max(a, b, c, d, e))
+
+# a, b, c = int(input()), int(input()), int(input())
+# ma = max(a, b, c)
+# mi = min(a, b, c)
+# mid = a + b + c - ma - mi
+# print(ma, mid, mi, sep='\n')
+
+# a = int(input())
+# a1 = a // 100
+# a2 = a // 10 % 10
+# a3 = a % 10
+# maxx = max(a1, a2, a3)
+# minn = min(a1, a2, a3)
+# mid = a1 + a2 + a3 - maxx - minn
+# if maxx - minn == mid:
+#     print('Число интересное')
+# else:
+#     print('Число неинтересное')
+
+# a1, a2, a3, a4, a5 = float(input()), float(input()), float(input()), float(input()), float(input())
+# print(abs(a1) + abs(a2) + abs(a3) + abs(a4) + abs(a5))
+
+# b, c, d, e = int(input()), int(input()), int(input()), int(input())
+# print(abs(b - d) + abs(c - e))
+
+# mystr = 'да'
+# mystr = mystr + 'нет'
+# mystr = mystr + 'да'
+# print(mystr)
+
+# str1 = '1'
+# str2 = str1 + '2' + str1
+# str3 = str2 + '3' + str2
+# str4 = str3 + '4' + str3
+# print(str4)
+
+# mystr = '123' * 3 + '456' * 2 + '789' * 1
+# print(mystr)
+
+# print('"Python is a great language!", said Fred. "I don\'t ever remember having this much fun before."')
+
+# n, s = input(), input()
+# print('Hello', n, s + '! You have just delved into Python')
+
+# n = input()
+# l = len(n)
+# print('Футбольная команда', n, 'имеет длину', l, 'символов')
+
+# a, b, c = input(), input(), input()
+# a1 = len(a)
+# b1 = len(b)
+# c1 = len(c)
+# if a1 == max(a1, b1, c1):
+#     if b1 > c1:
+#         print(c, a, sep='\n')
+#     else:
+#         print(b, a, sep='\n')
+# elif b1 == max(a1, b1, c1):
+#     if a1 > c1:
+#         print(c, b, sep='\n')
+#     else:
+#         print(a, b, sep='\n')
+# elif c1 == max(a1, b1, c1):
+#     if a1 > b1:
+#         print(b, c, sep='\n')
+#     else:
+#         print(a, c, sep='\n')
+
+# a, b, c = len(input()), len(input()), len(input())
+# max1 = max(a, b, c)
+# min1 = min(a, b, c)
+# if (max1 + min1) / 2 == a + b + c - max1 - min1:
+#     print('YES')
+# else:
+#     print('NO')
+
+# language1 = 'JavaScript'
+# language2 = 'Java'
+
+# print(language1 in language2)
+# print(language2 in language1)
+
+# digits = '0123456789'
+
+# print('45' in digits)
+# print('09' in digits)
+
+# s = input()
+# if 'синий' in s:
+#     print('YES')
+# else:
+#     print('NO')
+
+# s = input()
+# if 'суббота' in s or 'воскресенье' in s:
+#     print('YES')
+# else:
+#     print('NO')
+
+# s = input()
+# if '@' in s and '.' in s:
+#     print('YES')
+# else:
+#     print('NO')
+
+#import math ВНИМАНИЕ БИБЛИОТЕКА MATH
+#from math import *
+#позволяет не писать название модуля и символ точки. При таком способе подключения, импортируются абсолютно все функции модуля math
+
+# from math import *
+
+# x1, y1, x2, y2 = float(input()), float(input()), float(input()), float(input())
+# print(sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2))
+
+# from math import *
+# r = float(input())
+# print(pi * r ** 2, 2 * pi * r, sep='\n')
+
+# from math import *
+# a, b = float(input()), float(input())
+# print((a + b) / 2, sqrt(a * b), (2 * a * b) / (a + b), sqrt((a ** 2 + b ** 2) / 2), sep ='\n')
+
+# from math import *
+# a = float(input())
+# x = radians(a)
+# print(sin(x) + cos(x) + (tan(x)) ** 2)
+
+# from math import *
+# x = float(input())
+# print(floor(x) + ceil(x))
+
+# from math import *
+# a, b, c = float(input()), float(input()), float(input())
+# d = b ** 2 - 4 * a * c
+# if d < 0:
+#     print('Нет корней')
+# elif d == 0:
+#     print(-b / (2 * a))
+# else:
+#     print(min((- b + sqrt(d)) / (2 * a), (- b - sqrt(d)) / (2 * a)), max((- b + sqrt(d)) / (2 * a), (- b - sqrt(d)) / (2 * a)), sep='\n')
+
+# from math import *
+# n, a = int(input()), float(input())
+# print((n * a ** 2) / (4 * tan(pi / n)))
+
+# for n in range(10):
+#     print('Python is awesome!')
+
+# for i in range(6):
+#     print('AAA')
+# for k in range(5):
+#     print('BBBB')
+# print('E')
+# for j in range(9):
+#     print('TTTTT')
+# print('G')
+
+# s = input()
+# n = int(input())
+# for i in range(n):
+#     print(s)
+
+# s = input()
+# for i in range(10):
+#     print(i, s)
+
+# n = int(input())
+# for n in range(n + 1):
+#     print('Квадрат числа', n, 'равен', n ** 2)
+
+# n = int(input())
+# for i in range(n + 1):
+#     print('*' * (n - i))
+
+# m, p, n = int(input()), int(input()), int(input())
+# for i in range(0, n):
+#     print(i + 1, m * (1 + p / 100) ** i)
+
+# m, n = int(input()), int(input())
+# for _ in range(m, n + 1):
+#     print(_)
+
+# m, n = int(input()), int(input())
+# if m < n:
+#     for _ in range(m, n + 1):
+#         print(_)
+# else:
+#     for _ in range(m, n - 1, -1):
+#         print(_)
+
+# m, n = int(input()), int(input())
+# for _ in range(m, n + 1):
+#     if _ % 17 == 0:
+#         print(_)
+#     elif _ % 10 == 9:
+#         print(_)
+#     elif _ % 3 == 0 and _ % 5 == 0:
+#         print(_)
+
+
+# n = int(input())
+# for i in range(1, 11):
+#     print(n, 'x', i, '=', n * i)
+
+# num1 = 4
+# num2 = 6
+# num1 += num2
+# num1 *= num1
+# print(num1)
+
+# total = 0
+# for i in range(1, 6):
+#     total += i
+# print(total)
+
+# total = 0
+# for i in range(1, 6):
+#     total += i
+#     print(total, end='')
+
+# a, b  = int(input()), int(input())
+# c = 0
+# for i in range(a, b + 1):
+#     if i ** 3 % 10 == 4 or i ** 3 % 10 == 9:
+#         c += 1
+# print(c)
+
+# t = 0
+# n = int(input())
+# for i in range(n):
+#     a = int(input())
+#     t += a
+# print(t)
+
+# t = 0
+# from math import *
+# n = int(input())
+# for i in range(1, n + 1):
+#     t += 1 / i
+# print(t - log(n))
+
+# n = int(input())
+# t = 0
+# for i in range(1, n + 1):
+#     if (i ** 2) % 10 == 5:
+#         t += i
+# print(t)
+
+# n = int(input())
+# t = 1
+# for i in range(1, n + 1):
+#     t *= i
+# print(t)
+
+# t = 1
+# for i in range(10):
+#     n = int(input())
+#     if n != 0:
+#         t *= n
+# print(t)
+
+# t = 0
+# n = int(input())
+# for i in range(1, n + 1):
+#     if n % i == 0:
+#         t += i
+# print(t)
+
+# c = 0
+# for i in range(10):
+#     n = int(input())
+#     if n % 2 == 0:
+#         c += 1
+# if c == 10:
+#     print('YES')
+# else:
+#     print('NO')
+
+# t = 0
+# n = int(input())
+# for _ in range(1, n + 1):
+#     if _ % 2 != 0:
+#         t += _
+#     elif _ % 2 == 0:
+#         t -= _
+# print(t)
+
+# i = 7
+# a = 5
+# while i < 11:
+#     a += i
+#     i += 2
+
+# print(a)
+
+# s = input()
+# while s != 'КОНЕЦ' and s != 'конец':
+#     n = s
+#     s = input()
+#     print(n)
+
+# c = 0
+# s = input()
+# while s != 'стоп' and s != 'хватит' and s != 'достаточно':
+#     n = s
+#     s = input()
+#     c += 1
+# print(c)
+
+# s = int(input())
+# while s % 7 == 0:
+#     n = s
+#     s = int(input())
+#     print(n)
+
+# s = int(input())
+# c = 0
+# while s >= 0:
+#     n = s
+#     c += n
+#     s = int(input())
+# print(c)
+
+# s = int(input())
+# c = 0
+# while s >= 1 and s <= 5:
+#     n = s
+#     if n == 5:
+#         c += 1
+#     s = int(input())
+# print(c)
+
+# num = 12345
+# product = 1
+# while num != 0:
+#     last_digit = num % 10
+#     product = product * last_digit
+#     num = num // 10
+
+# print(product)
+
+# num = 123456789
+# total = 0
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit > 4:
+#         total += 1
+
+#     num = num // 10
+
+# print(total)
+
+# n = int(input())
+# while n!= 0:
+#     s = n % 10
+#     print(s)
+#     n //= 10
+
+# n = int(input())
+# a = ''
+# while n!= 0:
+#     s = n % 10
+#     a += str(s)
+#     n //= 10
+# print(a)
+
+# n = int(input())
+# mx = 0
+# mn = 9
+# while n != 0:
+#     s = n % 10
+#     if mx < s:
+#         mx = s
+#     if mn >= s:
+#         mn = s
+#     n //= 10
+# print('Максимальная цифра равна', mx)
+# print('Минимальная цифра равна', mn)
+    
+# n = int(input())
+# s, c, p = 0, 0, 1
+# m = n
+# while n != 0:
+#     e = n % 10
+#     s += e
+#     c += 1
+#     p *= e
+#     n //= 10
+# f = m // (10 ** (c - 1))
+# print(s, c, p, s / c, f, f + m % 10, sep='\n')
+
+# n = int(input())
+# while n != n // (10 ** (len(str(n)) - 1)):
+#     s = n % 10
+#     n //= 10
+# print(s)
+
+# n = int(input())
+# mx = 0
+# mn = 9
+# while n != 0:
+#     s = n % 10
+#     if mx < s:
+#         mx = s
+#     if mn > s:
+#         mn = s
+#     n //= 10
+# if mn == mx:
+#     print('YES')
+# else:
+#     print('NO')
+
+# n = int(input())
+# flag = "YES"
+# last_digit = n % 10
+
+# while n > 0:
+#     cur_digit = n % 10
+    
+#     if last_digit != cur_digit:
+#         flag = "NO"
+
+#     n //= 10
+
+# print(flag)
+
+# n = int(input())
+# flag = True
+
+# s1 = n % 10
+
+# while:
+#     s2 = n % 10
+#     n //= 10
+#     s1 = n % 10
+#     n //= 10
+#     if s2 > s1:
+#         flag = False
+
+# a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+# if b1 < a2 or b2 < a1:
+#     print('пустое множество')
+# elif b1 == a2:
+#     print(b1)
+# elif b2 == a1:
+#     print(b2)
+# elif a1 < a2 < b1 < b2:
+#     print(a2, b1)
+# elif a2 < a1 < b2 < b1:
+#     print(a1, b2)
+# elif a1 == a2 and b1 < b2:
+#     print(a1, b1)
+# elif a2 < a1 and b1 == b2:
+#     print(a1, b1)
+# elif a2 < a1 < b1 < b2:
+#     print(a1, b1)
+# elif a1 < a2 < b2 < b1:
+#     print(a2, b2)
+# elif a1 < a2 and b1 == b2:
+#     print(a2, b2)
+# elif a1 == a2 and b1 > b2:
+#     print(a2, b2)
+# elif a1 == a2 and b1 == b2:
+#     print(a2, b2)
+
+# a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input()) 
+# if min(b1, b2) < max(a1, a2): 
+#     print('пустое множество')
+# elif min(b1, b2) == max(a1, a2):
+#     print(min(b1, b2))
+# else:
+#     print(max(a1, a2), min(b1, b2))
+
+# m = int(input())
+# n = int(input())
+# if m % 2 == 0:
+#     for i in range(m - 1, n - 1, -2):
+#         print(i)
+# else:
+#     for i in range(m, n - 1, -2):
+#         print(i)
+
+
+
+# n = int(input())
+# flag = True
+# while n % 10 == 0:
+#     n //= 10
+# s1 = n % 10
+# n //= 10
+# while n % 10 != 0:
+#     s2 = n % 10
+#     if s2 < s1:
+#         flag = False
+#     s1 = s2
+#     n //= 10
+# if flag == True:
+#     print('YES')
+# else:
+#     print('NO')
+
+# for i in range(10):
+#     print(i, end='*')
+#     if i > 6:
+#         break
+
+# i = 100
+# while i > 0:
+#     if i == 40:
+#         break
+#     print(i, end='*')
+#     i -= 20
+
+# n = 10
+# while n > 0:
+#     n -= 1
+#     if n == 2:
+#         continue
+#     print(n, end='*')
+
+# result = 0
+# for i in range(10):
+#     if i % 2 == 0:
+#         continue
+#     result += i
+
+# print(result)
+
+# mult = 1
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         continue
+#     if i % 9 == 0:
+#         break
+#     mult *= i
+
+# print(mult)
+
+# n = int(input())
+# for i in range(2, n + 1):
+#     if n % i == 0:
+#         print(i)
+#         break
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     if 5 <= i <= 9 or 17 <= i <= 37 or 78 <= i <= 87:
+#         continue
+#     print(i)
+
+
+# mx = - 10 ** 6
+# s = 0
+# for i in range(10):
+#     x = int(input())
+#     if x < 0:
+#         s += x
+#         if x > mx:
+#             mx = x
+# if s == 0:
+#     print('NO')
+# else:
+#     print(s)
+#     print(mx)
+
+# n = int(input())
+# max_digit = -1
+
+# while n > 0:
+#     digit = n % 10
+#     if digit % 3 == 0:
+#         if digit > max_digit:
+#             max_digit = digit
+#     n //= 10
+# if max_digit == -1:
+#     print('NO')
+# else:
+#     print(max_digit)
+
+# n = int(input())
+# while n > 9:
+#         n //= 10
+# print(n)
+
+# n = int(input())
+# p = 1
+# while n != 0:
+#     digit = n % 10
+#     p *= digit
+#     n //= 10
+# print(p)
+
+# for i in range(1, 4):
+#     for j in range(3, 5):
+#         print(i + j, end='')
+
+# counter = 0
+# for i in range(99, 102):
+#     temp = i
+#     while temp > 0:
+#         counter += 1
+#         temp //= 10
+
+# print(counter)
+
+# n = int(input())
+# for i in range(n):
+#     for k in range(3):
+#         print(n, end='\n')
+
+# n = int(input())
+# for i in range(n):
+#     for k in range(3):
+#         print(n, end=' ')
+#     print()
+
+# n = int(input())
+# for k in range(n):
+#     for i in range(5):
+#         print(k + 1, end=' ')
+#     print()
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     for k in range(1, 10):
+#         print(i, '+', k, '=', i + k, end='\n')
+#     print()
+
+# n = int(input())
+# for i in range(1, n + 1):
+#     for k in range(i - 1):
+#         print(i, end='')
+#     print(i)
+
+# for n in range(1, 11):
+#     for k in range(1, 11):
+#         for m in range(1, 10):
+#             if 28 * n + 30 * k + 31 * m == 365:
+#                 print(n, k, m, end='\n')
+
+# for a in range(1, 151):
+#     for b in range(a, 151):
+#         for c in range(b, 151):
+#             for d in range(c, 151):
+#                 for e in range(d, 151):
+#                     if a ** 5 + b ** 5 + c ** 5 + d ** 5 == e ** 5:
+#                         print(a + b + c + d + e)
+#                         break
+
+# for x in range(1, 11):
+#     for y in range(1, 21):
+#         for z in range(1, 201):
+#             if 10 * x + 5 * y + 0.5 * z == 100 and x + y + z == 100:
+#                 print(x, y, z)
+
+
+# s = 'abcdefg'
+# print(s[0] + s[2] + s[4] + s[6])
+
+# s = 'abcdefg'
+# print(s[0]*3 + s[-1]*3 + s[3]*2 + s[3]*2)
+
+# s = '01234567891011121314151617'
+# for i in range(0, len(s), 5):
+#     print(s[i], end='')
+
+# s = input()
+# for i in range(0, len(s), 2):
+#     print(s[i])
